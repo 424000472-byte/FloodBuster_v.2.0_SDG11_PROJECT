@@ -221,17 +221,24 @@ FloodBuster_v.2.0/                  ← Repository Root
 
 ---
 
-## 👥 Team Members
+## 👥 Team Contributions
 
-| Name | Role | Layer |
-|---|---|---|
-| Caliguiran, Arjane | Alerts Module & Testing | Presentation (AlertForm) |
-| Crisolo, Angel Christian | Evacuation Logic & Flowcharts | Business Logic (EvacuationService) |
-| Dayag, Freddiemar F. | Database & Repositories | Data Access Layer |
-| Esteban, Maria Victoria N. | Dashboard, Barangay Form & Docs | Presentation (DashboardForm, BarangayForm) |
-| *(5th Member)* | Login, Reports & User Management | Presentation (LoginForm, ReportForm) |
+| Name | Role | Primary Responsibilities |
+| :--- | :--- | :--- |
+| **Esteban, Maria Victoria N.** | **UI/UX & Documentation Lead** | SDAD authoring, Crystal Reports design, UI Design, and Presentation Layer lead. |
+| **Caliguiran, Arjane** | **Business Logic Specialist** | Development of the BLL (Business Logic Layer) and core system algorithms. |
+| **Riza, Christina Alexandra** | **Presentation Developer** | Implementation of Windows Forms and UI logic in the Presentation Layer. |
+| **Lagrimas, Don Christian** | **Lead Database Engineer** | Database schema design, SQL scripting, and Data Access Layer (DAL) architecture. |
+| **Lamayo, Justine Kurt** | **Data Access Developer** | Implementation of repositories and data mapping within the Data Access Layer (DAL). |
 
 ---
+
+## 🏗️ Project Architecture Overview
+
+* **Presentation Layer:** Managed by Esteban & Riza (WinForms, Crystal Reports).
+* **Business Logic Layer (BLL):** Managed by Caliguiran (Services & Logic).
+* **Data Access Layer (DAL):** Managed by Lagrimas & Lamayo (Repositories & SQL).
+* **Project Oversight:** Managed by [Your Name] (Integration & Architecture).
 
 ## 🎓 Academic Context
 
