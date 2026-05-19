@@ -12,14 +12,14 @@
 
 ## Table of Contents
 
-- [About the Project](#-about-the-project)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Prerequisites](#-prerequisites)
-- [Installation & Setup](#-installation--setup)
-- [Database Setup](#-database-setup)
-- [Team Members](#-team-members)
-- [Academic Context](#-academic-context)
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Installation & Setup](#installation--setup)
+- [Database Setup](#database-setup)
+- [Team Members](#team-members)
+- [Academic Context](#academic-context)
 
 ---
 
