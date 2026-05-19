@@ -18,7 +18,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation & Setup](#installation--setup)
 - [Database Setup](#database-setup)
-- [Team Members](#team-members)
+- [Team Members](#team-contributors)
 - [Academic Context](#academic-context)
 
 ---
