@@ -14,12 +14,10 @@
 
 - [About the Project](#-about-the-project)
 - [Features](#-features)
-- [System Architecture](#-system-architecture)
 - [Tech Stack](#-tech-stack)
 - [Prerequisites](#-prerequisites)
 - [Installation & Setup](#-installation--setup)
 - [Database Setup](#-database-setup)
-- [Folder Structure](#-folder-structure)
 - [Team Members](#-team-members)
 - [Academic Context](#-academic-context)
 
@@ -41,7 +39,7 @@ This project directly contributes to **SDG 11, Target 11.5** — reducing deaths
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description | Role Access |
 |---|---|---|
@@ -56,7 +54,7 @@ This project directly contributes to **SDG 11, Target 11.5** — reducing deaths
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Visual Basic .NET (VB.NET)
 - **Framework:** .NET Framework 4.7.2+
@@ -68,7 +66,7 @@ This project directly contributes to **SDG 11, Target 11.5** — reducing deaths
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 Before running the project, make sure you have the following installed:
 
