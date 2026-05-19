@@ -18,7 +18,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation & Setup](#installation--setup)
 - [Database Setup](#database-setup)
-- [Team Members](#team-contributors)
+- [Team Members](#teammembers)
 - [Academic Context](#academic-context)
 
 ---
@@ -145,10 +145,6 @@ Username: Kurt
 Password: hash_c33m82q2
 ```
 
-> **Important:** Change the admin password after first login.
-
----
-
 ## Team Contributions
 
 | Name | Role | Primary Responsibilities |
@@ -160,13 +156,6 @@ Password: hash_c33m82q2
 | **Lamayo, Justine Kurt** | **Data Access Developer** | Implementation of repositories and data mapping within the Data Access Layer (DAL). |
 
 ---
-
-## Project Architecture Overview
-
-* **Presentation Layer:** Managed by Esteban & Riza (WinForms, Crystal Reports).
-* **Business Logic Layer (BLL):** Managed by Caliguiran (Services & Logic).
-* **Data Access Layer (DAL):** Managed by Lagrimas & Lamayo (Repositories & SQL).
-* **Project Oversight:** Managed by [Your Name] (Integration & Architecture).
 
 ##  Academic Context
 
