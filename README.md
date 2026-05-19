@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [About the Project](#-about-the-project)
 - [Features](#-features)
@@ -25,7 +25,7 @@
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 FloodBuster v2.0 is the evolution of the original FloodBuster C++ console application, now rebuilt as a full **N-Tier VB.NET Windows Forms Application** with persistent SQL Server database integration, role-based login, and Crystal Reports reporting.
 
@@ -45,46 +45,14 @@ This project directly contributes to **SDG 11, Target 11.5** — reducing deaths
 
 | Feature | Description | Role Access |
 |---|---|---|
-| 🔐 Login System | Role-based authentication (Admin / Standard User) | All |
-| 🗺️ Flood Status Tracking | Mark and reset flooded barangays in real time | Admin |
-| 🚨 Emergency Alerts | Issue, view, and clear flood alerts per barangay | Admin / View |
-| 🧭 Evacuation Routing | Recommends nearest safe evacuation center via shortest-path logic | All |
-| 🏫 Evacuation Center Management | Track center capacity and occupancy | Admin |
-| 📊 Report Generation | Monthly Flood Incident & Evacuation Summary via Crystal Reports | Admin |
-| 👤 User Management | Create and manage Admin / Standard User accounts | Admin |
+| Login System | Role-based authentication (Admin / Standard User) | All |
+| Flood Status Tracking | Mark and reset flooded barangays in real time | Admin |
+| Emergency Alerts | Issue, view, and clear flood alerts per barangay | Admin / View |
+| Evacuation Routing | Recommends nearest safe evacuation center via shortest-path logic | All |
+| Evacuation Center Management | Track center capacity and occupancy | Admin |
+| Report Generation | Monthly Flood Incident & Evacuation Summary via Crystal Reports | Admin |
+| User Management | Create and manage Admin / Standard User accounts | Admin |
 
----
-
-## 🏗️ System Architecture
-
-FloodBuster v2.0 implements a full **3-Tier N-Tier Architecture**:
-
-```
-┌─────────────────────────────────────────┐
-│        PRESENTATION LAYER (UI)          │
-│  LoginForm │ DashboardForm │ AlertForm  │
-│  BarangayForm │ EvacuationForm │ ReportForm │
-└────────────────────┬────────────────────┘
-                     │
-┌────────────────────▼────────────────────┐
-│      BUSINESS LOGIC LAYER (BLL)         │
-│  FloodStatusService │ EvacuationService │
-│  AlertService │ UserService             │
-└────────────────────┬────────────────────┘
-                     │
-┌────────────────────▼────────────────────┐
-│       DATA ACCESS LAYER (DAL)           │
-│  BarangayRepository │ AlertRepository   │
-│  EvacuationRepository │ UserRepository  │
-│  DatabaseConnection                     │
-└────────────────────┬────────────────────┘
-                     │
-┌────────────────────▼────────────────────┐
-│         SQL SERVER DATABASE             │
-│  Barangays │ EvacuationCenters          │
-│  FloodAlerts │ Users │ BarangayConnections │
-└─────────────────────────────────────────┘
-```
 
 ---
 
@@ -112,7 +80,7 @@ Before running the project, make sure you have the following installed:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -148,7 +116,7 @@ Replace `YOUR_SERVER_NAME` with your SQL Server instance name (e.g., `localhost`
 
 ---
 
-## 🗄️ Database Setup
+##  Database Setup
 
 ### 1. Open SSMS
 
@@ -165,63 +133,25 @@ This will:
 - Create all tables (`Barangays`, `EvacuationCenters`, `FloodAlerts`, `Users`, `BarangayConnections`)
 - Insert seed data (sample barangays, evacuation centers, and a default Admin account)
 
-### 3. Default Admin Credentials
+### 3. Default Admin/User Credentials
 
 After running the script, you can log in with:
 
 ```
-Username: admin
-Password: Admin@123
+Admin
+Username: Maria Victoria
+Password: hash_v82n291x
+
+User
+Username: Kurt
+Password: hash_c33m82q2
 ```
 
-> ⚠️ **Important:** Change the admin password after first login.
+> **Important:** Change the admin password after first login.
 
 ---
 
-## 📁 Folder Structure
-
-```
-FloodBuster_v.2.0/                  ← Repository Root
-│
-├── .gitignore
-├── README.md
-│
-├── CODE/
-│   ├── FloodBuster.sln
-│   └── FloodBuster/
-│       ├── Presentation/           ← Windows Forms (UI Layer)
-│       │   ├── LoginForm.vb
-│       │   ├── DashboardForm.vb
-│       │   ├── BarangayForm.vb
-│       │   ├── EvacuationForm.vb
-│       │   ├── AlertForm.vb
-│       │   └── ReportForm.vb
-│       ├── BLL/                    ← Business Logic Layer
-│       │   ├── FloodStatusService.vb
-│       │   ├── EvacuationService.vb
-│       │   ├── AlertService.vb
-│       │   └── UserService.vb
-│       └── DAL/                    ← Data Access Layer
-│           ├── DatabaseConnection.vb
-│           ├── BarangayRepository.vb
-│           ├── EvacuationRepository.vb
-│           ├── AlertRepository.vb
-│           └── UserRepository.vb
-│
-├── DATABASE/
-│   └── Database_Script.sql         ← Full schema + seed data
-│
-├── DOCUMENTATION/
-│   ├── SDAD_FloodBuster.pdf
-│   └── ERD_Diagram.png
-│
-└── REPORTS/
-    └── Sample_Report_Export.pdf
-```
-
----
-
-## 👥 Team Contributions
+## Team Contributions
 
 | Name | Role | Primary Responsibilities |
 | :--- | :--- | :--- |
@@ -233,14 +163,14 @@ FloodBuster_v.2.0/                  ← Repository Root
 
 ---
 
-## 🏗️ Project Architecture Overview
+## Project Architecture Overview
 
 * **Presentation Layer:** Managed by Esteban & Riza (WinForms, Crystal Reports).
 * **Business Logic Layer (BLL):** Managed by Caliguiran (Services & Logic).
 * **Data Access Layer (DAL):** Managed by Lagrimas & Lamayo (Repositories & SQL).
 * **Project Oversight:** Managed by [Your Name] (Integration & Architecture).
 
-## 🎓 Academic Context
+##  Academic Context
 
 | Detail | Info |
 |---|---|
